@@ -13,7 +13,7 @@ docker build -t assignment4 .
 ```
 - Run a container using the following command:
 ```
-docker run -p 8888:8888 -v $(pwd):/home/assignment assignment
+docker run -p 8888:8888 -v $(pwd):/home/assignment assignment4
 ```
 - Copy the Jupyter Lab url and paste it in your browser. 
 - Open `A4_notebook.ipynb`
